@@ -1,0 +1,6 @@
+{
+  "name": "Localizador de Subestações",
+  "description": "Aplicativo para localização rápida de subestações com navegação GPS integrada.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
