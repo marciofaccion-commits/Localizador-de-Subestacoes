@@ -1,0 +1,9 @@
+/* styles.css */
+html,body,#map{height:100%;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;display:flex;flex-direction:column;height:100vh}
+header{padding:8px;background:#f8f9fa;border-bottom:1px solid #ddd}
+#controls{display:flex;gap:8px;align-items:center}
+main{display:flex;flex:1}
+#map{flex:1}
+#results{width:320px;max-width:40%;overflow:auto;border-left:1px solid #ddd;padding:8px}
+.leaflet-popup-content{font-size:14px}

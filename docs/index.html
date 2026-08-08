@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Localizador de Subestações</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-sA+e2gqgXbF7mQvM0sKk3sKp1k9QbPp1rRz8a2bP4oI=" crossorigin="" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Localizador de Subestações</h1>
+    <div id="controls">
+      <button id="btn-locate">Usar minha localização</button>
+      <button id="btn-geocode-all">Geocodificar endereços (cache)</button>
+      <label for="nearest-count">Mostrar</label>
+      <select id="nearest-count"><option>1</option><option selected>5</option><option>10</option></select>
+    </div>
+  </header>
+
+  <main>
+    <div id="map"></div>
+    <aside id="results"></aside>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-o9N1j7k0X6p2h2xQ+0u6m2G1nYkWv1qDkP4jM2b5u0M=" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script src="js/map.js"></script>
+</body>
+</html>
