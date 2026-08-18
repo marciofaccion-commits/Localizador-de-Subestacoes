@@ -1,0 +1,9 @@
+{
+  "name": "Localizador de Subestações",
+  "short_name": "Acessa",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF9F6",
+  "theme_color": "#B91C1C",
+  "icons": []
+}

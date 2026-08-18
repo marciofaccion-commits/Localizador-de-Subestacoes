@@ -3,4 +3,6 @@ export interface Subestacao {
   sigla: string;
   nome: string;
   endereco: string;
+  bairro?: string;
+  municipio?: string;
 }
